@@ -1,0 +1,208 @@
+d/* Logo */
+ #logo img {
+  border-radius: 5px;
+  box-shadow: 7px 7px 7px #0E4F86; 
+ }
+
+/* Global */
+a:visited {
+  color: #0E4F86;
+}
+
+/* IP Quicksearch - properties page */
+.ip-quicksearch-optholder .control-group {
+   display: inline; 
+}
+
+/* Menu sizing */
+@media (max-width: 1200px) {
+  .icemegamenu > ul > li  a.iceMenuTitle > span.icemega_title {
+    padding: 12px 2px 15px 15px;
+    display: block; 
+  }
+}
+blockquote.quote-border {   
+  border-left: 10px solid #0E4F86; 
+  padding: .5em 10px;
+  margin: 1.5em 10px;  
+  font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+}
+blockquote {
+  font-family: 'Goudy Bookletter 1911', Georgia, Times, serif; 
+}
+body, ul, ol {   
+  font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+  line-height: 1.5em;
+  font-size: 1em;
+}
+
+h1, h2, h3, h4 {
+  color: #0E4F86;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+header {
+  color: #0E4F86;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+}
+#contactus-form, #contactus-map {
+  border: none;
+}
+
+.cnter {
+  text-align: center; 
+}
+
+section#content #middlecol .inside {
+  padding:30px;
+} 
+
+#middlecol {
+  border-radius: 10px;
+  
+}
+
+hr {
+    border-top: 2.5px dashed white;
+    border-bottom: 2.5px dashed white;
+    height: 1px;
+    background: #AAC9CD;
+    background-image: -webkit-linear-gradient(left, #AAC9CD, #0E4F86, #AAC9CD);
+    background-image: -moz-linear-gradient(left, #AAC9CD, #0E4F86, #AAC9CD);
+    background-image: -ms-linear-gradient(left, #AAC9CD, #0E4F86, #AAC9CD);
+    background-image: -o-linear-gradient(left, #AAC9CD, #0E4F86, #AAC9CD);
+}
+
+#lee-services .services-list {
+  color: black;
+  font-family: 'Goudy Bookletter 1911', Georgia, Times, serif;
+  font-size: 1.25em;
+  line-height: 1.25em;  
+}
+#lee-services .services-list p {
+  border-left: 10px solid #0E4F86; 
+  padding: .5em 10px;
+  margin: 1.5em 10px;
+  margin-bottom: 20px;
+}
+.why-us {
+  margin-bottom: 40px;
+}
+.why-us img {
+  border:1px solid #;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ border-radius: 15px;  
+}
+#copyright {
+  float: left;
+}
+
+/* homepage property search */
+
+.span4.promo .controls{
+  display: inline;
+}
+.span4.promo .ip-qssearch{
+  margin: 0 auto;
+  display: block;
+  width: 164px;
+}
+.span4.promo .input-medium{
+  margin: 0 auto;
+  display: block;
+  width: 150px;
+}
+.span4.promo .input-small{
+  margin: 0 auto;
+  display: block;
+  width: 90px;
+}
+.span4.promo .btn-group{
+  margin: 0 auto;
+  display: block;
+  width: 151px;
+  margin-top: 20px;
+}
+.span4.promo .control-group{
+  line-height: 1px;
+  margin-bottom: 0;
+}
+.span4.promo .controls{
+  line-height: 5px;
+}
+
+/* Property Listing Page */
+
+.apply-btn {
+  -moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+  box-shadow:inset 0px 1px 0px 0px #f5978e;
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+  background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+  background-color:#f24537;
+  -webkit-border-top-left-radius:15px;
+  -moz-border-radius-topleft:15px;
+  border-top-left-radius:15px;
+  -webkit-border-top-right-radius:15px;
+  -moz-border-radius-topright:15px;
+  border-top-right-radius:15px;
+  -webkit-border-bottom-right-radius:15px;
+  -moz-border-radius-bottomright:15px;
+  border-bottom-right-radius:15px;
+  -webkit-border-bottom-left-radius:15px;
+  -moz-border-radius-bottomleft:15px;
+  border-bottom-left-radius:15px;
+  text-indent:0;
+  border:1px solid #d02718;
+  display:inline-block;
+  float:right;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  font-weight:bold;
+  font-style:normal;
+  height:50px;
+  line-height:50px;
+  width:100px;
+  text-decoration:none;
+  text-align:center;
+  text-shadow:1px 1px 2px #810e05;
+}
+.apply-btn:hover {
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
+  background:-moz-linear-gradient( center top, #c62d1f 5%, #f24537 100% );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24537');
+  background-color:#c62d1f;
+  cursor: pointer;
+}
+.apply-btn:active {
+  position:relative;
+  top:1px;
+}
+
+/* Services Page */
+
+#consultationform .jFormerControl {
+  width: 77px;
+  margin: 0 auto;
+}
+.why-us .span6 h4 {
+  background: #1e75a8;
+  color: white;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 7px #888;
+  text-align: center;
+}
+.why-us .span4 h3 {
+  background: #1e75a8;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 7px #888;
+}
+.why-us .span6 img {
+  box-shadow: 5px 5px 7px #888;
+}
