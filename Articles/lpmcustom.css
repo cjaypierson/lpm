@@ -1,4 +1,4 @@
-d/* Logo */
+/* Logo */
  #logo img {
   border-radius: 5px;
   box-shadow: 7px 7px 7px #0E4F86; 
@@ -169,6 +169,7 @@ hr {
   text-decoration:none;
   text-align:center;
   text-shadow:1px 1px 2px #810e05;
+  margin-left: 10px;
 }
 .apply-btn:hover {
   background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24537) );
@@ -205,4 +206,17 @@ hr {
 }
 .why-us .span6 img {
   box-shadow: 5px 5px 7px #888;
+}
+
+/* Mozilla HR */
+@-moz-document url-prefix() {
+  hr {
+   height: 6px;
+  } 
+}
+
+/* Contact Page */
+#contactform .jFormerControl {
+  width: 77px;
+  margin: 0 auto;
 }

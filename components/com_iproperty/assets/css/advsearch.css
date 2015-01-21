@@ -7,7 +7,7 @@
  */
 
 #ip-map-canvas{min-height: 350px; height: 350px; width: 100%;}
-#ip-map-canvas img{max-width: none !important;} /* bootstrap gmap bug fix */
+#ip-map-canvas img{max-width: none;} /* bootstrap gmap bug fix */
 
 .ip-bubble-window{min-width: 400px !important;}
 .ip-adv-subcat{margin-left: 15px;}
@@ -22,3 +22,5 @@
 .ip-adv-amencontainer{padding: 8px;}
 .ip-adv-catgroupcontainer{padding: 8px;}
 .ip-adv-slidercontainer{padding: 8px;}
+
+.ip-property-thumb-holder img{max-width: 95% !important;}

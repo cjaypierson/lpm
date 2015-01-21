@@ -75,7 +75,8 @@ echo '</div>';
 
 <property class="item-page<?php echo $this->pageclass_sfx?>">
     <div class="ip-mainheader">
-        <a href='/housing-application/uncategorised/application-for-housing'><p class="apply-btn">Apply Now</p></a>
+        <a href='/content/forms/application-for-housing?address=<?php echo $this->escape($this->iptitle);?>'><p class="apply-btn">Apply Now</p></a>
+        <a href="/homepage/forms/request-info?address=<?php echo $this->escape($this->iptitle);?> "><p class="apply-btn">Request Info</p></a>
         <h1 class="pull-left">
             <?php echo $this->escape($this->iptitle); ?> <small class="ip-detail-price"><?php echo $this->p->formattedprice; ?></small>
         </h1>

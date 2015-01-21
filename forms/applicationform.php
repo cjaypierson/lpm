@@ -15,6 +15,7 @@
         echo "Thank you for contacting us.  We will get back to you shortly.";
         echo $_POST["jFormer"];
     }*/
+    $address = $_GET["address"];
     $housingApplication = new JFormer('housingApplication', array());
 
     $housingApplication->addJFormComponentArray(array(
@@ -23,6 +24,7 @@
                 <div class="span12">
         '),
         new JFormComponentSingleLineText('desiredaddress', 'Desired Address:', array(
+            'initialValue' => $address,
             'width' => '30em',
             'validationOptions' => array('required'),
         )),
