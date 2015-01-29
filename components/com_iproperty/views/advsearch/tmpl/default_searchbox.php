@@ -166,11 +166,12 @@ $tmporder       = new JFormFieldOrderBy();
         <form action="<?php echo JRoute::_('index.php?option=com_iproperty&view='.$jinput->getCmd('view').'&id='.$jinput->getInt('id')); ?>" method="post" name="ip_quick_search" class="ip-quicksearch-form form-inline" id="ip-quicksearch-form" novalidate="novalidate">
             <div class="ip-quicksearch-optholder">
                 <div class="control-group">
+                    <h4 style="display: inline;">Find By  </h4>
                     <?php if ( $this->params->get('qs_show_keyword', $this->settings->qs_show_keyword) ): ?>
                         <input type="text" class="input-medium ip-qssearch" placeholder="<?php echo JText::_('COM_IPROPERTY_KEYWORD'); ?>" name="filter_keyword" value="<?php echo $this->state->get('filter.keyword'); ?>" />
                     <?php endif; ?>
                     <?php if ( $this->params->get('qs_show_cat', $this->settings->qs_show_cat) && !$this->params->get('cat') && (($jinput->getCmd('view') != 'cat') || ($jinput->getCmd('view') == 'cat' && $jinput->getInt('id') == 0))): ?>
-                        <select name="filter_cat" class="input-medium">
+                        <select name="Type" class="input-medium">
                             <option value=""><?php echo JText::_('COM_IPROPERTY_CATEGORY'); ?></option>
                             <?php echo JHTML::_('select.options', $tmpcats->getOptions(), 'value', 'text', $this->state->get('filter.cat')); ?>
                         </select>
@@ -223,6 +224,7 @@ $tmporder       = new JFormFieldOrderBy();
             </div>
             <div class="ip-quicksearch-sortholder">
                 <div class="control-group pull-right">
+                    <h4 style="display: inline;">Sort By  </h4>
                     <select name="filter_order" class="input-medium">
                         <option value=""><?php echo JText::_('COM_IPROPERTY_SORTBY'); ?></option>
                         <?php echo JHTML::_('select.options', $tmpsort->getOptions(), 'value', 'text', $this->state->get('list.ordering')); ?>
